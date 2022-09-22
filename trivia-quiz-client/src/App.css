@@ -1,3 +1,27 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
+.App {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.startpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.startpage--form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.startpage--form--button {
+  margin-top: 10px;
+}
